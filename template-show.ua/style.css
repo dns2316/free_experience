@@ -1,0 +1,58 @@
+a{
+  text-decoration: none;
+}
+.logo {
+  width: 111px;
+  height: 44px;
+  display: inline-block;
+}
+.input_control{
+  width: 725px;
+  height: 34px;
+  border: 2px solid #ffcd08;
+  outline: none;
+  display: inline-block;
+}
+.batton_search{
+  width: 86;
+  height: 38;
+  display: inline-block;
+  outline: none;
+  /*background: url(btn_search.jpg);*/
+}
+.batton_search:hover{
+  width: 86;
+  height: 38;
+  background: url(btn_search_hover.jpg);
+  display: inline-block;
+  outline: none;
+}
+.search{
+  margin-top: 5px;
+  height: 44px;
+  width: 80%;
+  border-left: 150px;
+  display: inherit;
+  margin-left: 10%;
+}
+.main_link{
+  margin-left: 16%;
+  margin-right: calc(65%-16);
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: Helvetica, serif;
+}
+.header{
+  display: inline-block;
+}
+.top{
+  width: 80%;
+  justify-content: space-between;
+  display: flex;
+}
+.town{
+  width: 40%;
+  display: inline-block;
+  }
